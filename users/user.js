@@ -2,7 +2,7 @@
 regexp:true, undef:true, strict:true, trailing:true, white:true */
 /*global XT:true */
 
-XT.MongooseSchema.create({
+X.MongooseSchema.create({
   name: "User",
   definition: {
     id:           {type: String, required: true, index: {unique: true}}, // can be anything really?

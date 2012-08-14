@@ -2,7 +2,7 @@
 regexp:true, undef:true, strict:true, trailing:true, white:true */
 /*global XT:true */
 
-XT.MongooseSchema.create({
+X.MongooseSchema.create({
   name: "Datasource",
   definition: {
     name:         {type: String, index: {unique: true}},
