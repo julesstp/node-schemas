@@ -6,7 +6,7 @@ X.MongooseSchema.create({
   name: "Datasource",
   definition: {
     name:         {type: String, index: {unique: true}},
-    hostname:     {type: String, index: {unique: true}}, 
+    hostname:     {type: String}, 
     port:         {type: Number},
     description:  {type: String},
     location:     {type: String},
