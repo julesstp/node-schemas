@@ -19,6 +19,6 @@ X.MongooseSchema.create({
     xTupleVersion:      {type: String},
     languageName:       {type: String},
     languageVersion:    {type: Number},
-    lexicon:            {type: [DictionaryEntry]}
+    lexicon:            {type: [X.schemas.DictionaryEntry]}
   }
 });
