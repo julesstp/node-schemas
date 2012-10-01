@@ -10,6 +10,7 @@ X.MongooseSchema.create({
     lastModified: {type: Date},
     created:      {type: Date},
     checksum:     {type: String},
-    organization: {type: String}
+    organization: {type: String},
+    socket:       {type: String}, 
   }
 });
